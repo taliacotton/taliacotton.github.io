@@ -45,11 +45,12 @@ function endFunction(){
 	liked.push(displayed[0]);
 	displayed.splice(0);
 	
-	if(document.getElementById("randomCat")!=undefined) {
+	if(typeof(document.getElementById("randomCat"))!="undefined") {
 			document.getElementById("randomCat").remove();
 			console.log("it worked");
 			//console.log("#randomCat existed and was deleted")
 		}
+
 	
 	console.log("displayed has " + displayed.length + " elements")
 	console.log("liked has " + liked.length + " elements")
