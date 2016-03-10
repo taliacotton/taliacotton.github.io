@@ -1,96 +1,113 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
-  <title>Interaction Design Lab  |  Talia Cotton</title>
-  <link rel="stylesheet" href="styles.css">
-  <link href='https://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:400,500,600' rel='stylesheet' type='text/css'>
-  <script src="jquery.js"></script>
-  <script src="scripts.js"></script>
-  <script src="tendina.min.js"></script>
-  
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SeniorSavvy | Download</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300,500,700|Montserrat:700' rel='stylesheet' type='text/css'>
 </head>
-
 <body>
-  
-	<ul class="dropdown">
-      <li>
-        <a class="about" href="#">About</a>
-        <ul>
-          <li><a class="talia" href="#">Talia Cotton</a></li>
-          <li><a class="theClass" href="#">The Class</a></li>
-        </ul>
-      </li>
-      <li>
-        <a class="projects" href="#">Projects</a>
-        <ul>
-          <li><a class="assignment1" href="#">Assignment 1: This webpage</a></li>
-          <li><a class="assignment2" href="kitty-tinder/index.html">Assignment 2: Cat Tinder</a></li>
-          <li><a class="assignment3" href="landing-page/index.html">Assignment 3: Landing Page</a></li>
-          <li><a class="assignment4" href="senior-savvy/index.html">Assignment 4: Midterm</a></li>
-        </ul>
-      </li>
-      <li>
-        <a class="bringOutTheCats" href="#">I want some...</a>
-        <ul>
-          <li><a class="cats" href="#">Cats</a></li>
-          <li><a class="unicorns" href="#">Unicorns</a></li>
-        </ul>
-      </li>
-    </ul>
-    
-    <div class="content">
-    	<div class="centerContent">
 	
-			<section id="taliaContent">
-				<h2>Talia Cotton</h2>
-				<p>is a German-born theoretical physicist. She developed the general theory of relativity, 
-				one of the two pillars of modern physics (alongside quantum mechanics). Cotton's work is also 
-				known for its influence on the philosophy of science. Cotton is best known in popular culture 
-				for her mass–energy equivalence formula E = mc2 (which has been dubbed "the world's most famous 
-				equation"). She received the 1921 Nobel Prize in Physics for her "services to theoretical physics", 
-				in particular her discovery of the law of the photoelectric effect, a pivotal step in the evolution 
-				of quantum theory.</p>
-				<p>Near the beginning of her career, Cotton thought that Newtonian mechanics was no longer enough 
-				to reconcile the laws of classical mechanics with the laws of the electromagnetic field. This led 
-				to the development of his special theory of relativity. She realized, however, that the principle of 
-				relativity could also be extended to gravitational fields, and with his subsequent theory of gravitation 
-				in 1916, she published a paper on general relativity. She continued to deal with problems of statistical 
-				mechanics and quantum theory, which led to her explanations of particle theory and the motion of molecules. 
-				She also investigated the thermal properties of light which laid the foundation of the photon theory of 
-				light. In 1917, Cotton applied the general theory of relativity to model the large-scale structure of 
-				the universe.
-				<p class="quote">“Bacon ipsum dolor amet t-bone ullamco venison ut.”</p>
-			</section>
+		<section id="section1">
+			<div class="wrapper">
+				<div id="header">
+					<img class="logo" src="images/logo-on-red.png">
+					<a href="https://invis.io/H663O62PS" class="button" id="downloadFree">Preview the App</a>
+					<a href="https://invis.io/H663O62PS" class="button" id="downloadIcon"><img src="images/download-icon.png"></a>
+				</div>
+				<div class="centered">
+					<h1> Stay healthy,<br>live longer.</h1>
+					<h2> The friendly app that helps you to track your vitals and remember your medications.</h2>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<section id="section2">
+			<div class="wrapper">
+				<h1> Four easy functions </h1>
+				<div class="functions">
+					<img src="images/medications-icon.png">
+					<h3>Medications</h3>
+					<h4>Remember to take them</h4>
+				</div>
+				<div class="functions">
+					<img src="images/vitals-icon.png">
+					<h3>Vitals</h3>
+					<h4>Track them easily</h4>
+				</div>
+				<div class="functions">
+					<img src="images/visits-icon.png">
+					<h3>Doctor's Visits</h3>
+					<h4>Remember the when,<br>where, who and why</h4>
+				</div>
+				<div class="functions">
+					<img src="images/information-icon.png">
+					<h3>Information</h3>
+					<h4>Get answers to your<br>general questions</h4>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</section>
+		<section id="section3">
+			<div class="wrapper">
+				<div class="left">
+					<img src="images/organized.png">
+				</div>
+				<div class="right">
+					<h1>Life Is Too Short To Worry About Organization</h1>
+					<h2>That's why we've organized your information for you &mdash; all in one place, at your fingertips.</h2>
+				</div>
+			</div>
 			
-			<section id="classContent">
-				<h2>Core Lab Interaction</h2>
-				<p>is about creating user interfaces, and understanding how they work. The focus will be on making awesome 
-				things for the web. We will learn and practice the fundamentals of how to write HTML, CSS, and Javascript 
-				in order to produce usable and engaging interfaces. We will be exploring typography, layout, visual effects, 
-				responsiveness, embedding different kinds of media, and more!</p>
-				<p>This course is designed to be complementary to Core Studio: Interaction (you should be enrolled in the studio 
-				with the same section as this course, section D, taught by Erica Heinz). The emphasis here will be placed on 
-				learning the technical things you’ll need in order to harness and apply the concepts covered in your studio class.</p>
-			</section>
-			
-			<section id="404NotFound">
-				<h2>404 Not Found</h2>
-				<p>The webpage you tried to access doesn't exist. (Yet.)</p>
-			</section>
-			
-			<section id="assignment1Content">
-				<h2>This Webpage</h2>
-				<p>(you're on it.)</p>
-			</section>
+		</section>
+		<section id="section4">
+			<div class="wrapper">
+				<div class="clear"></div>
+				<div class="left">
+					<h1>Charts that are<br>actually relatable</h1>
+					<h2>(No squinting required)</h2>
+				</div>
+				<div class="right">
+				</div>
+			</div>
+		</section>
+		<section id="section5">
+			<div class="wrapper">
+				<div class="clear"></div>
+				<h1>Photo-realistic icons<br>for tangible feel</h1>
+				<h2>Because trying to figure out<br>which meds are which is hard enough!</h2>
+			</div>
+		</section>
+		<section id="section6">
+			<div class="wrapper">
+				<div class="clear"></div>
+				<div class="left">
+					<img src="images/confirmation.png">
+				</div>
+				<div class="right">
+					<h2>Confirmation messages after<br>every action point, so you know you did it right.</h2>
+				</div>
+			</div>
+		</section>
+		<section id="section7">
+			<div class="wrapper">
+				<h1>Clarity is just<br>two clicks away</h1>
+				<h2>Download is free for all platforms.</h2>
+				<a href="jk.html"><img title="Download" src="images/app-store-icon.png"></a>
+				<a href="jk.html"><img title="Download" src="images/android-icon.png"></a>
+			</div>
+		</section>
+	
+	<div id="footer">
+		<div class="wrapper">
+			<ul>
+				<li><a href="jk.html">Home</a></li>
+				<li><a href="jk.html">App Store</a></li>
+				<li><a href="jk.html">Support</a></li>
+				<li><a href="jk.html">Press</a></li>
+			</ul>
+			<h5>&#169;2016 SeniorSavvy Privacy Terms of Service</h5>
 		</div>
-		<div class="rightContent">
-    		<img id="taliaPicture" src="images/talia.jpg">
-    	</div>
-    </div>
-
-  
+	</div>
 </body>
 </html>
