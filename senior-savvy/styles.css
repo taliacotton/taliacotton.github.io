@@ -143,6 +143,7 @@ section{
 @media (max-width: 460px) {
 	.functions {
 		width: 48%;
+		height: 250px;
 	}
 }
 
